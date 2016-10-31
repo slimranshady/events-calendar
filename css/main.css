@@ -17,6 +17,11 @@ html {
   box-sizing: inherit;
 }
 
+table {
+  border: 1px solid;
+  border-color: #ccc;
+}
+
 tbody td {
   height: 8.75em;
   border-bottom-color: #ccc;
@@ -26,20 +31,9 @@ th {
   border-bottom-color: #ccc;
 }
 
-table {
-  border: 1px solid;
-  border-color: #ccc;
-}
-
 div {
   border: 1px solid;
   border-radius: 8px;
-}
-
-.grey {
-  background-color: #f2f2f2;
-  border-color: #666;
-  color: #333;
 }
 
 .pink {
@@ -48,14 +42,20 @@ div {
   color: #991919;
 }
 
+.blue {
+  background-color: #d2d6f0;
+  border-color: #1d38da;
+  color: #38448e;
+}
+
 .green {
   background-color: #d1e0bf;
   border-color: #6b7e54;
   color: #51603f;
 }
 
-.blue {
-  background-color: #d2d6f0;
-  border-color: #1d38da;
-  color: #38448e;
+.grey {
+  background-color: #f2f2f2;
+  border-color: #666;
+  color: #333;
 }
